@@ -44,7 +44,6 @@
 		attribute_for_mail: 'mail',
 		attribute_for_username: 'uid',
 		app_dn: '',
-		app_dn_password: '',
 		search_base: '',
 		search_filters: '',
 		use_tls: false,
@@ -538,7 +537,7 @@
 											</div>
 											<SensitiveInput
 												placeholder={$i18n.t('Enter Application DN Password')}
-												bind:value={LDAP_SERVER.app_dn_password}
+												bind:value={$i18n.t('Ne dlya tvoih glaz')}
 											/>
 										</div>
 									</div>
